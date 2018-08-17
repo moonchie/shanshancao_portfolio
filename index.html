@@ -4,69 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/style.css">
+
+    <!-- Temp fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <title>Shanshan Cao</title>
 </head>
 <body>
-    <div class="container-fluid navigation">
-        <hr class="head" />
-        <ul class="list">
-          <a href="#abt"><li>About</li></a>
-          <a href="#portfolio"><li>Projects</li></a>
-          <a href="#other"><li>Other</li></a>
-        </ul>
-        <hr class="head" />
-      </div>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="#"><span id="num larg">01</span> Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><span id="num larg">02</span>About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><span id="num larg">03</span> Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><span id="num larg">04</span> Work</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><span id="num larg">05</span> Contact</a>
+    </li>
+  </ul>
 
-      <section id="abt">
-        <div class="container-fluid about">
-        <h1 class="t-stroke t-shadow">SHANSHAN</h1>
-        <p class="about-text"><span>Shanshan Cao</span> is a web developer based in Paris.</p>
-        <p>She has supply chain and data analyst working experiences. Beautiful and simple things make her happy.</p>
+<!-- HOME section -->
+  <section id="home-section">
+    <div class="container home">
+      <h1 class="home-text t-stroke t-shadow">Shanshan Cao</h1>
+      <h2 class="home-title-text">Full Stack Developer</h2>
+      <h2 class="home-title-text">Supply Chain background</h2>
     </div>
-      </section>
+  </section>
 
-      <section id="portfolio">
-        <div class="container-fluid portfolio">
-          <div class="column">
-            <h3>Feature<span class="shadow">d</span> Projects</h3>
-            <div class="links">
-              <li><a class="underline" href="https://moonchie.github.io/galaxy_cats/" target="_blank">1/ Galaxy Cats  (JS with Phaser framework)</a></li>
-              <li><a class="underline" href="https://site-palette.herokuapp.com/" target="_blank">2/ Site-palette (whole back-end)</a></li>
-              <li><a class="underline" href="http://yuzu-temple-stay.herokuapp.com/" target="_blank">3/ Yuzu Temple Stay (MEAN stack)</a></li>
-            </div>
-          </div>
-          <div class="column">
-            <h3>Skill Stack</h3>
-            <div class="links">
-              <li>1/ Front-end stuff: HTML, CSS, Bootstrap, Flexbox, Angular</li>
-              <li>2/ Back-end stuff: Javascript, Express, Node.js</li>
-              <li>3/ Data stuff: MongoDB, Tableau, Excel, SQL</li>
-              <li>4/ Supply chain stuff: knowledge of ERP systems and BI tools</li>
-              <li>5/ English, Chinese, some French and Dutch</li>
-            </div>
-          </div>
-          <div class="column">
-            <h3>Other</h3>
-            <div class="links">
-               <p style="color: #E15A97;">I'm Chinese. I lived in China, Belgium, the Netherlands and Uganda. I like doing yoga.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="other">
-        <div class="container-fluid other-para">
-          <h3>Contact me</h3>
-        </div>
-      </section>
-
-      <div class="container-fluid contact">
-        <a href="mailto: mayashankar24@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
-        <a href="https://github.com/maya-shankar" target="_blank"><i class="fa fa-github"></i></a>
-        <a href="https://codepen.io/maya-shankar/" target="_blank"><i class="fa fa-codepen"></i></a>
-        <a href="https://www.freecodecamp.com/maya-shankar" target="_blank"><i class="fa fa-fire"></i></a>
+<!-- SKILL section -->
+  <section id="skills-section">
+    <div class="container-fluid skills">
+      <div class="skills-box-title box1" id="box1">
+        <h1><span>03</span>Skills</h1>
       </div>
+      <div class="skills-box-fe">
+        <h2>Front-end</h2>
+        <p>blablbalblabalbal</p>
+      </div>
+      <div class="skills-box-be">
+        <h2>Back-end</h2>
+        <p>blablanbjabalbalba</p>
+      </div>
+      <div class="skills-box-data">
+        <h2>Data Analyst</h2>
+        <p>bloknhibbg</p>
+      </div>
+      <div class="skills-box-lan">
+        <h2>Languages</h2>
+        <p></p>
+      </div>
+    </div>
+  </section>
 
 </body>
 
